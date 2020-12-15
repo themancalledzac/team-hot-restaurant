@@ -16,10 +16,7 @@ app.use(express.json());
 // API Table List
 let tables = [
     {
-        customerName: "admin",
-        customerEmail: "admin@admin.com",
-        customerId: "admin",
-        phoneNumber: "5555555555"
+
     }
 ];
 
