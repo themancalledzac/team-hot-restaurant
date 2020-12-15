@@ -14,7 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // API Table List
-const tables = [
+let tables = [
     {
         customerName: "admin",
         customerEmail: "admin@admin.com",
@@ -23,10 +23,13 @@ const tables = [
     }
 ];
 
-const waitlist = [];
+let waitlist = [];
+
+
 
 // ROUTES
 
+// app.post("/api/tables", )
 
 app.get("/tables", function(req, res) {
     res.sendFile(path.join(__dirname, "tables.html"));
@@ -53,6 +56,14 @@ app.post("/api/tables", function(req, res) {
     } else {
         waitlist.push(newRes);
     }
+    
+});
+
+app.post("/api/clearAPI", function(req, res) {
+
+    
+    tables = [];
+    waitlist = [];
     
 });
 
