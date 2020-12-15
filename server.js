@@ -1,5 +1,6 @@
 // Dependencies
 // =============================================================
+const { table } = require("console");
 const express = require("express");
 const path = require("path");
 
@@ -15,6 +16,7 @@ app.use(express.json());
 // API Table List
 const tables = [];
 
+const waitlist = [];
 
 // ROUTES
 
@@ -31,7 +33,25 @@ app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "index.html"));
 });
 
+app.get("/api/tables", function(req, res) {
+    return res.json(tables);
+});
 
+app.get("/api/waitlist", function(req, res) {
+    return res.json(waitlist);
+});
+
+app.post("/api/tables", function(req, res) {
+    const newRes = req.body;
+
+    if (tables.length < 5) {
+        tables.push(newRes);
+        
+    } else {
+        waitlist.push(newRes);
+    }
+    
+});
 
 
 // Listener
