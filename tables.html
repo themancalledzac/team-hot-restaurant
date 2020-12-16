@@ -65,6 +65,7 @@
                 $("<hr>"),  
                 $("<h2>").text("Table #" + (i + 1)),
                 $("<hr>"),
+                $(`<button class="btn btn-danger btn-clear" data-id="${data[i].customerID}">Clear</button>`),
                 $("<h2>").text("ID: " + data[i].customerID),
                 $("<h2>").text("Name: " + data[i].customerName),
                 $("<h2>").text("Email: " + data[i].customerEmail),
@@ -83,6 +84,8 @@
                 $("<hr>"),  
                 $("<h2>").text("Table #" + (i + 1)),
                 $("<hr>"),
+                $(`<button class="btn btn-danger btn-clear" data-id="${waitList[i].customerID}">Clear</button>`),
+
                 $("<h2>").text("ID: " + data[i].customerID),
                 $("<h2>").text("Name: " + data[i].customerName),
                 $("<h2>").text("Email: " + data[i].customerEmail),
@@ -95,8 +98,8 @@
     
     $("#clearAPI").on("click", function() {
         $.post("/api/clearAPI", function() {
-            // $("#waitList").empty();
-            // $("#tablesList").empty();
+            $("#waitList").empty();
+            $("#tablesList").empty();
         })
     });
   </script>

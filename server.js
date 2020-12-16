@@ -1,17 +1,20 @@
 // Dependencies
 // =============================================================
-const { table } = require("console");
+// const { table } = require("console");
 const express = require("express");
 const path = require("path");
 
-// Sets up the Express App
+// EXPRESS CONFIGURATION
 // =============================================================
 const app = express();
+// This sets up the basic properties of our express server
 const PORT = process.env.PORT || 3001;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
+// 
 
 // API Table List
 let tables = [
@@ -25,6 +28,9 @@ let waitlist = [];
 
 
 // ROUTES
+
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 // app.post("/api/tables", )
 
