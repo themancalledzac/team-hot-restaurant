@@ -1,10 +1,10 @@
 <h1 align="center">Team Restaurant waitlist </h1>
 
 <p align="center">
-    <img src="https://img.shields.io/github/repo-size/themancalledzac/README-Creator" />
-    <img src="https://img.shields.io/github/languages/top/themancalledzac/README-Creator"  />
-    <img src="https://img.shields.io/github/issues/themancalledzac/README-Creator" />
-    <img src="https://img.shields.io/github/last-commit/themancalledzac/README-Creator" >
+    <img src="https://img.shields.io/github/repo-size/themancalledzac/team-hot-restaurant" />
+    <img src="https://img.shields.io/github/languages/top/themancalledzac/team-hot-restaurant"  />
+    <img src="https://img.shields.io/github/issues/themancalledzac/team-hot-restaurant" />
+    <img src="https://img.shields.io/github/last-commit/themancalledzac/team-hot-restaurant" >
     <a href="https://github.com/themancalledzac">
         <img alt="Github: themancalledzac" src="https://img.shields.io/github/followers/themancalledzac?style=social" target="_blank" />
     </a>
@@ -14,11 +14,14 @@
 </p>
   
 <p align="center">
-    <img src="https://img.shields.io/badge/Javascript-yellow" />
-    <img src="https://img.shields.io/badge/jQuery-blue"  />
-    <img src="https://img.shields.io/badge/-node.js-green" />
-    <img src="https://img.shields.io/badge/-inquirer-red" >
-    <img src="https://img.shields.io/badge/-json-orange" />
+    <img src="https://img.shields.io/badge/bootstrap-red" />
+    <img src="https://img.shields.io/badge/Javascript-orange" />
+    <img src="https://img.shields.io/badge/jQuery-yellow"  />
+    <img src="https://img.shields.io/badge/-json-green" />
+    <img src="https://img.shields.io/badge/-node.js-teal" />
+    <img src="https://img.shields.io/badge/-inquirer-blue" >
+    <img src="https://img.shields.io/badge/-express-indigo" />
+    <img src="https://img.shields.io/badge/-heroku-violet" />
 </p>
 
 ## Table of Contents
@@ -37,9 +40,14 @@
 
 Basic app demonstrating Node and Express with jQuery. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.
 
+[Heroku Link](https://hot-restaurant-zac.herokuapp.com/)
+
+[Repo Link](https://team-hot-restaurant.herokuapp.com/)
+
 ## Review
 
 ```
+
 A group project, of using previous examples to help us build a functioning app comprised of both front and back end parts.
 
 Currently looking to modularize the js files, and remove all script code from html files.

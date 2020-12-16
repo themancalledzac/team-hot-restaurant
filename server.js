@@ -29,8 +29,8 @@ let waitlist = [];
 
 // ROUTES
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./routes/apiRoutes")(app);
+// require("./routes/htmlRoutes")(app);
 
 // app.post("/api/tables", )
 
