@@ -14,15 +14,35 @@
 </p>
   
 <p align="center">
-    <img src="https://img.shields.io/badge/bootstrap-red" />
-    <img src="https://img.shields.io/badge/Javascript-orange" />
-    <img src="https://img.shields.io/badge/jQuery-yellow"  />
-    <img src="https://img.shields.io/badge/-json-green" />
-    <img src="https://img.shields.io/badge/-node.js-teal" />
-    <img src="https://img.shields.io/badge/-inquirer-blue" >
-    <img src="https://img.shields.io/badge/-express-indigo" />
-    <img src="https://img.shields.io/badge/-heroku-violet" />
+    <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">
+        <img src="https://img.shields.io/badge/bootstrap-red"  target="_blank/>
+    </a>
+    <a href="https://www.javascript.com/">
+        <img src="https://img.shields.io/badge/Javascript-orange"  target="_blank/>
+    </a>
+    <a  href="https://api.jquery.com/" >
+        <img src="https://img.shields.io/badge/jQuery-yellow" target="_blank/>
+    </a>
+    <a  href="https://www.json.org/json-en.html" >
+        <img src="https://img.shields.io/badge/-json-green"  target="_blank/>
+    </a>
+    <a href="https://nodejs.org/en/" >
+        <img src="https://img.shields.io/badge/-node.js-teal"  target="_blank/>
+    </a>
+    <a href="https://www.npmjs.com/package/inquirer" >
+        <img src="https://img.shields.io/badge/-inquirer-blue"  target="_blank>
+    </a>
+    <a href="https://expressjs.com/" >
+        <img src="https://img.shields.io/badge/-express-indigo"  target="_blank/>
+    </a>
+    <a href="" >
+        <img src="https://img.shields.io/badge/-heroku-violet"  target="_blank/>
+    </a>
 </p>
+
+```
+
+```
 
 ## Table of Contents
 
